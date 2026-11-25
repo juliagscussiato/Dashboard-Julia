@@ -58,7 +58,7 @@
 </main>
 <script>
   // ⬇️ Cole aqui o link do App da Web (Implantar → Gerenciar implantações → URL que termina em /exec)
-  const WEBAPP_URL = 'COLE_AQUI_O_LINK_QUE_TERMINA_EM_/exec';
+  const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycby2vk6s809t10_hYGaAzAxgsYuw76G-fcc3ww1hgWwlJlo7hxQ4Xbfr2gZ9CpFuy7SK/exec';
 
   const configurado = /^https:\/\/script\.google\.com\/.+\/exec/.test(WEBAPP_URL);
   const instalado = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true || new URLSearchParams(location.search).has('app');
